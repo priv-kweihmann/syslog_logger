@@ -22,6 +22,7 @@ jt = Jeweler::Tasks.new do |gem|
   gem.has_rdoc = true
   gem.extra_rdoc_files = ["README.rdoc"]
   gem.rdoc_options = ["--line-numbers", "--inline-source", "--title", "SyslogLogger", "--main", "README.rdoc"]
+  gem.license = "MIT"
 end
 Jeweler::GemcutterTasks.new
 
